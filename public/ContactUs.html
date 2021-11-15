@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Gaming Royale</title>
+    <!---google font--->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <!-- M icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Actual M -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style2.css" />
+    
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/c170bdf11a.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+  <section>
+   <nav class="nav-fixed">
+        <div class="nav-wrapper">
+          <a style="font-family: Algerian; padding-left: 10px;" href="Index.html" class="brand-logo">GamingRoyale</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="gameseries.html">Game Series</a></li>
+            <li><a href="#" onclick="toggleModal();">Genre</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+            <li><a href="aboutus.html" target="_blank">About Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="gameseries.html">Game Series</a></li>
+        <li><a href="#" onclick="toggleModal();">Genre</a></li>
+        <li><a href="ContactUs.html">Contact Us</a></li>
+        <li><a href="aboutus.html" target="_blank">About Us</a></li>
+      </ul>
+    </section>
+    
+   <br><br><br><br><br>
+  <section class="fcontact">
+      <div id="contact" class="section section-contact scrollspy">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card-panel teal darken-3 white-text center">
+                <i class="material-icons">email</i>
+                <h5>Contact Us</h5>
+                <p>
+                  Gaming Royale is always there for the gamers.Feel free to contact us. We will revert you withing 24 hours.
+                </p>
+              </div>
+              <ul class="collection with-header">
+                <li class="collection-header">
+                  <h5>Email Us</h5>
+                </li>
+                <li class="collection-item">Gaming Royale</li>
+                <li class="collection-item">ragnarokrana@gmail.com</li>
+                <li class="collection-item">+91 9999955555</li>
+              </ul>
+            </div>
+            <div class="col s12 m6">
+              <div class="card-panel z-depth-3">
+                <h5>Please fill out this form</h5>
+                <form class = "sub-heading" onsubmit="checkVal()">
+                    <div class="input-field">
+                      <input type="text" placeholder="Name" required>
+                    </div>
+                    <div class="input-field">
+                      <input type="text" placeholder="Email" required>
+                    </div>
+                    <div class="input-field">
+                      <input type="text" placeholder="Phone" />
+                    </div>
+                    <div class="input-field">
+                      <textarea
+                         class="materialize-textarea"
+                         placeholder="Message" required></textarea>
+                    </div>
+                <a class="waves-effect waves-light btn-small teal darken-3">
+                    <div class="row">
+                     <input type="submit"  value="Submit">
+                    </div>
+                </a></form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="ffooter">
+      <footer class="section brown darken-3 white-text">
+        <div class="container">
+          <div class="row footer-two">
+            <div class="col l6 s6">
+              <h6 class="white-text left-align">
+                &copy; 2020 GamingRoyale | All right reserved.
+              </h6>
+            </div>
+            <div class="col l6 s6">
+              <h6 class="white-text right-align">
+                Designed by Ashutosh Kumar.
+              </h6>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    
+    <section class="infomodal">
+      <div id="modal3" class="modal">
+        <div class="modal-content">
+          <h4 id="info-modal-heading">Link Disabled</h4>
+          <p id="info-modal-content">
+            Sorry! All links are disabled as of now.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <a href="#" class="modal-close waves-effect btn-flat">Close</a>
+        </div>
+      </div>
+    </section>
+    
+    </body>
+    
+    <!-- jquery -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"
+    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+    crossorigin="anonymous"
+  ></script>
+  <!-- M script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- custom js -->
+  <script src="js/loader.js"></script>
+    
+</html>

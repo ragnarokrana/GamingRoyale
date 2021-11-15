@@ -1,0 +1,322 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Series - Gaming Royale</title>
+
+    <!-- M icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Actual M -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/c170bdf11a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body id="home" class="scrollspy">
+    <section class="fnav">
+      <div class="navbar-fixed">
+        <nav class="teal darken-3">
+          <div class="container">
+            <div class="nav-wrapper">
+              <a style="font-family: Algerian; padding-left: 10px;" href="Index.html" class="brand-logo">GamingRoyale</a>
+              <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+              </a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li>
+                  <a href="Index.html">Home</a>
+                </li>
+                <li>
+                  <a href="#gallery">Game Series</a>
+                </li>
+                <li>
+                  <a href="#" onclick="toggleModal();">Genre</a>
+                </li>
+                <li>
+                  <a href="ContactUs.html">Contact Us</a>
+                </li>
+                <li>
+                  <a href="aboutus.html" target="_blank">About Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <ul class="sidenav" id="mobile-nav">
+        <li>
+                  <a href="Index.html">Home</a>
+                </li>
+                <li>
+                  <a href="#gallery">Game Series</a>
+                </li>
+                <li>
+                  <a href="#" onclick="toggleModal();">Genre</a>
+                </li>
+                <li>
+                  <a href="ContactUs.html">Contact Us</a>
+                </li>
+                <li>
+                  <a href="aboutus.html" target="_blank">About Us</a>
+                </li>
+      </ul>
+    </section>
+
+    <section class="fslider">
+      <div class="slider">
+        <ul class="slides">
+           <li>
+            <img src="images/games1b.jpg" alt="image one" />
+            <div class="caption center-align white-text">
+              <h3>GamingRoyale - Quality Games</h3>
+              <h5 class="light text-lighten-3">
+                We provide you best gaming downloads.
+              </h5>
+            </div>
+          </li>
+          <li>
+            <img src="images/games2.jpg" alt="image one" />
+            <div class="caption center-align white-text">
+              <h3>Gaming Royale - Superior Games</h3>
+              <h5 class="light text-lighten-3">
+                We provide you best gaming downloads.
+              </h5>
+            </div>
+          </li>
+          <li>
+            <img src="images/game3.png" alt="image one" />
+            <div class="caption center-align white-text">
+              <h3>GamingRoyale - Splendid Games</h3>
+              <h5 class="light text-lighten-3">
+                We provide you best gaming downloads.
+              </h5>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="fsearch">
+      <div
+        id="search"
+        class="section section-search teal darken-4 white-text center scrollspy"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col s12">
+              <h3>Search Games</h3>
+              <div class="input-field">
+                <input
+                  type="text"
+                  class="white autocomplete"
+                  id="autocomplete-input"
+                  placeholder="Dark Sector,Mass Effect.."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="fbox">
+      <div class="section section-icons grey lighten-4 center">
+        <div class="container">
+          <div class="row">
+             <a href="https://gamesflix.net/category/size/1-10-gb/" target="_blank" style="color: black"><div class="col s12 m4">
+              <div class="card-panel">
+                <i class="material-icons large teal-text">file_download</i>
+               <h4>Under 10 GB</h4>
+                <p>
+                  Download the Games for low end PCs under 10gb.
+                </p>
+              </div>
+            </div></a>
+            <a href="https://gamesflix.net/category/size/20-30-gb/" target="_blank" style="color: black"><div class="col s12 m4">
+              <div class="card-panel">
+                <i class="material-icons large teal-text">play_for_work</i>
+                <h4>Under 20 GB</h4>
+                <p>
+                  High Quality Games Download with better graphics and clarity.
+                </p>
+              </div>
+                </div></a>
+            <a href="https://gamesflix.net/category/size/40-50-gb/" target="_blank" style="color: black"><div class="col s12 m4">
+              <div class="card-panel">
+                <i class="material-icons large teal-text"
+                  >network_wifi</i
+                >
+                <h4>High End Gaming</h4>
+                <p>
+                  Best Visual Effects and Full of Action Packed Games Download.
+                </p>
+                </div>
+            </div></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="fparallax">
+      <div class="parallax-container">
+        <div class="parallax"><img src="images/parallax1.jpg" /></div>
+      </div>
+    </section>
+
+    <section class="fgallery">
+      <div id="gallery" class="section section-gallery scrollspy">
+        <div class="container">
+          <h4 class="center"><span class="teal-text">Games</span> Series</h4>
+          <div class="row fcard">
+            <div class="col s12 m3">
+              <img
+                src="https://wallpaper-house.com/data/out/11/wallpaper2you_469846.jpg"
+                alt=""
+                class="materialboxed responsive-img"
+              />
+                </div>
+            <div class="col s12 m3">
+              <img
+                src="https://wallpaper-house.com/data/out/11/wallpaper2you_469851.jpg"
+                alt=""
+                class="materialboxed responsive-img"
+              />
+            </div>
+            <div class="col s12 m3">
+              <img
+                src="https://wallpaper-house.com/data/out/11/wallpaper2you_469853.jpg"
+                alt=""
+                class="materialboxed responsive-img"
+              />
+            </div>
+            <div class="col s12 m3">
+              <img
+                src="https://wallpaper-house.com/data/out/11/wallpaper2you_469854.png"
+                alt=""
+                class="materialboxed responsive-img"
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col s12 m3">
+              <img
+                src="https://wallpaper-house.com/data/out/11/wallpaper2you_469861.jpg"
+                alt=""
+                class="materialboxed responsive-img"
+              />
+            </div>
+            <div class="col s12 m3">
+              <img
+                src="https://wallpaper-house.com/data/out/11/wallpaper2you_469864.jpg"
+                alt=""
+                class="materialboxed responsive-img"
+              />
+            </div>
+            <div class="col s12 m3">
+              <img
+                src="https://wallpaper-house.com/data/out/11/wallpaper2you_469889.jpg"
+                alt=""
+                class="materialboxed responsive-img"
+              />
+            </div>
+            <div class="col s12 m3">
+              <img
+                src="https://wallpaper-house.com/data/out/11/wallpaper2you_469899.jpg"
+                alt=""
+                class="materialboxed responsive-img"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12 m3">
+              <img
+                src="https://wallpaper-house.com/data/out/11/wallpaper2you_469905.jpg"
+                alt=""
+                class="materialboxed responsive-img"
+              />
+            </div>
+            <div class="col s12 m3">
+              <img
+                src="https://wallpaper-house.com/data/out/11/wallpaper2you_469906.jpg"
+                alt=""
+                class="materialboxed responsive-img"
+              />
+            </div>
+            <div class="col s12 m3">
+              <img
+                src="https://wallpaper-house.com/data/out/11/wallpaper2you_469902.jpg"
+                alt=""
+                class="materialboxed responsive-img"
+              />
+            </div>
+            <div class="col s12 m3">
+              <img
+                src="https://wallpaper-house.com/data/out/11/wallpaper2you_469920.jpg"
+                alt=""
+                class="materialboxed responsive-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ffooter">
+      <footer class="section teal darken-3 white-text">
+        <div class="container">
+          <div class="row footer-two">
+            <div class="col l6 s6">
+              <h6 class="white-text left-align">
+                &copy; 2020 GamingRoyale | All right reserved.
+              </h6>
+            </div>
+            <div class="col l6 s6">
+              <h6 class="white-text right-align">
+                Designed by Ashutosh Kumar.
+              </h6>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    
+    <section class="infomodal">
+      <div id="modal3" class="modal">
+        <div class="modal-content">
+          <h4 id="info-modal-heading">Link Disabled</h4>
+          <p id="info-modal-content">
+            Sorry! All links are disabled as of now.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <a href="#" class="modal-close waves-effect btn-flat">Close</a>
+        </div>
+      </div>
+    </section>
+    
+  </body>
+
+  <!-- jquery -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"
+    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+    crossorigin="anonymous"
+  ></script>
+  <!-- M script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- custom js -->
+  <script src="js/loader1.js"></script>
+</html>
