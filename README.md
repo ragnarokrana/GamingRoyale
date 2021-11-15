@@ -12,3 +12,10 @@ This is a gaming website made by using following technologies:
 8. MATERIALIZE CSS {alternative of bootstrap}
 
 Here You can download any games of your choice.The website is completely free of cost to use and enjoy.
+
+
+#####  Instructions to be followed #####
+
+=> Run Command: "npm install"
+=> Run Command: "npm run dev"
+=> Go to http://localhost:3000
