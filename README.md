@@ -17,5 +17,6 @@ Here You can download any games of your choice.The website is completely free of
 #####  Instructions to be followed #####
 
 => Run Command: "npm install"
+=> Run Command: "npm i nodemon"
 => Run Command: "npm run dev"
 => Go to http://localhost:3000
