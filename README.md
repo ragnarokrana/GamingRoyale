@@ -1,22 +1,23 @@
-# GamingRoyale
+# Node_Image_Uploader
 
-This is a gaming website made by using following technologies:
+This is a web application made by using following technologies:
 
-1. HTML
+1. NODE JS
 2. CSS
 3. JAVASCRIPT
-4. JQUERY
+4. EXPRESS JS
 5. JSON
-6. NODE JS
+6. EXPRESS HANDLEBARS
 7. MONGO DB
-8. MATERIALIZE CSS {alternative of bootstrap}
+8. BOOTSTRAP
+9. MULTER NODE MODULES
 
-Here You can download any games of your choice.The website is completely free of cost to use and enjoy.
+Here You can upload multiple images of your choice.The website is completely free of cost to use and so enjoy.
 
 
 #####  Instructions to be followed #####
 
-=> Run Command: "npm install"
-=> Run Command: "npm i nodemon"
-=> Run Command: "npm run dev"
+=> Run Command: "npm i express nodemon express-handlebars multer"
+=> Run Command: "npm i mongoose" (also connect your cloud mongo database thorugh datbase.js file)
+=> Run Command: "npm start"
 => Go to http://localhost:3000
